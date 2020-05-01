@@ -1,0 +1,217 @@
+# showcase
+showcase:
+  enable: true
+  title: "Data, Overwhelming?"
+  subtitle: "Simplify! Join the community"
+  description: '<p class="lead">
+    Data space is becoming commodity much faster than we can imagine. 
+    Lets not get tied up in the complexity of Jargons, stakeholders, cloud and open source. 
+    Join the community of professionals leveraging product principles in creating data products and platforms.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Join the community"
+    URL: "https://www.slack.com/"
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+  
+# about
+about:
+  enable: true
+  title: "Hello, I am Akhil"
+  subtitle: "Loves Tech, Data & Finance"
+  content: "I have worked with ecommerce companies like <a target='_blank' href='https://zalando.de/'>Zalando</a>, 
+  <a target='_blank' href='https://groupon.com/'>Groupon</a> and SaaS companies like
+  <a target='_blank' href='https://VWO.com/'>VWO</a> in Europe and Asia. My job is to make sure that organizations develop Data and Machine learning as core capability with intelligent investments. Can we be opinionated in Data Space?. Stay in touch."
+  image:
+    x: "https://cdn.chimpify.net/57f62169a65872ad238b4568/2018/10/JPEG-Bild-FB9E0DD225A9-1.jpeg"
+    _2x: "https://cdn.chimpify.net/57f62169a65872ad238b4568/2018/10/JPEG-Bild-FB9E0DD225A9-1.jpeg"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "mailto:akhil.medium@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/akhil-dhingra-51552813/"
+
+    - icon: "github"
+      URL: "https://github.com/akhildhingra"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/akhil_dd"
+
+    - icon: "youtube"
+      URL: "https://www.youtube.com/channel/UCQlh8YWEG8JaOwE_O8o-BJw"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/run_akhil/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/akhil.dhingra/"
+
+
+
+# education
+education:
+  enable: false
+  title: "Education"
+  items:
+    - university: "University of Waterloo"
+      year: "2012-2017"
+      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
+
+    - university: "Sir John A Macdonald CI"
+      year: "2009-2012"
+      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 8+ years of dexperience working with companies from all over the world. I have an MBA degree in finance. Currently based out of Berlin."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Sr. Product Manager (Data Platform)"
+      company: "Zalando"
+      duration: "Jun 2018 - Jun 2020"
+
+    - title: "PM Analytics"
+      company: "VWO, Groupon"
+      duration: "Apr 2015 - Jun 2018"
+
+    - title: "Analyst"
+      company: "Moody's Investor Service (ICRA)"
+      duration: "Mar 2014 - Mar 2015"
+
+# Client & Work
+client_and_work:
+  title: "Community Reviews"
+  enable: true
+
+  clients:
+    - logo:
+        x: "https://media-exp1.licdn.com/dms/image/C4D0BAQFRS8L2JXugow/company-logo_200_200/0?e=2159024400&v=beta&t=49Jty9Dkjh1hd2h3PeDb9SbrqnQgqWtHQLb6_6_YQm8"
+        _2x: "https://media-exp1.licdn.com/dms/image/C4D0BAQFRS8L2JXugow/company-logo_200_200/0?e=2159024400&v=beta&t=49Jty9Dkjh1hd2h3PeDb9SbrqnQgqWtHQLb6_6_YQm8"
+      alt: "PMF"
+
+    - logo:
+        x: "https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded"
+        _2x: "https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded"
+      alt: "Stack Overflow"
+
+    - logo:
+        x: "https://blog.thedataincubator.com/wp-content/uploads/2017/04/spark-logo2.png"
+        _2x: "https://blog.thedataincubator.com/wp-content/uploads/2017/04/spark-logo2.png"
+      alt: "Apache Spark"
+
+    - logo:
+        x: "https://img.icons8.com/cotton/2x/cloud-database.png"
+        _2x: "https://img.icons8.com/cotton/2x/cloud-database.png"
+      alt: ""
+
+    - logo:
+        x: "https://www.logicbig.com/tutorials/misc/kafka/images/kafka.png"
+        _2x: "https://www.logicbig.com/tutorials/misc/kafka/images/kafka.png"
+      alt: "Apache Kafka"
+
+    - logo:
+        x: "https://static.wixstatic.com/media/a74f6c_32dcec7d23d54b99b28401cab7a90ccf~mv2_d_1943_2016_s_2.png/v1/fill/w_172,h_172,al_c,q_85,usm_0.66_1.00_0.01/ml-icon.webp"
+        _2x: "https://static.wixstatic.com/media/a74f6c_32dcec7d23d54b99b28401cab7a90ccf~mv2_d_1943_2016_s_2.png/v1/fill/w_172,h_172,al_c,q_85,usm_0.66_1.00_0.01/ml-icon.webp"
+      alt: ""
+
+
+
+  works:
+    - title: "DBT | Data Build Tool"
+      description: "Created by Fishtown Analytics, DBT and DBT cloud are pioneers of data modeling in modern data warhourse. Join one of the best community in data modeling space: "
+      button:
+        icon: "icon-arrow-right"
+        btnText: "DBT Community"
+        URL: "https://slack.getdbt.com/"
+      image:
+        x: "https://d33wubrfki0l68.cloudfront.net/18774f02c29380c2ca7ed0a6fe06e55f275bf745/a5007/ui/img/svg/product.svg"
+        _2x: "https://d33wubrfki0l68.cloudfront.net/18774f02c29380c2ca7ed0a6fe06e55f275bf745/a5007/ui/img/svg/product.svg"
+      is_even: true
+
+    - title: "Delta Lake"
+      description: "Now Open Sourced Delta Lake by Databricks is seeing rapid adoption in traditional BI and modern Data Science area. See how companies are using Delta Lake in Enterprises:"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "GDPR use case"
+        URL: "https://databricks.com/session_eu19/building-an-ai-powered-retail-experience-with-delta-lake-spark-and-databricks"
+      image:
+        x: "https://delta.io/wp-content/uploads/2019/04/Delta-Lake-marketecture-0423c.png"
+        _2x: "https://delta.io/wp-content/uploads/2019/04/Delta-Lake-marketecture-0423c.png"
+      is_even: false
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Blogposts"
+  items:
+    - name: "Akhil Dhingra"
+      title_blog: "Difference between a Data & a Financial Analyst"
+      position: "Zalando, PM"
+      content: "Differnece between a financial and data analyst is just not the size of data. Its also the cognitive fluency that comes with inherent protocols in data creation. Standadization of such creation process in encoded as accouting..."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read More"
+        URL: "https://www.linkedin.com/pulse/analogy-between-financial-analyst-data-akhil-dhingra?articleId=6372849471923019776#comments-6372849471923019776&trk=public_profile_article_view"
+
+    - name: "Vikul Agarwal"
+      title_blog: "Why Data modeling assignments are quick wins"
+      position: "Oracle, Lead"
+      content: "There are many ways to orchestrate a data modeling assignment. The core issue of handling state has been handled in Big Data systems with very limited consistency. I am summarizing a lot of points to support the same"
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+      button:
+        icon: "icon-mail-fill"
+        btnText: "Coming Soon"
+        URL: "#"
+
+
+# contact
+contact:
+  enable: false
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+41 (44) 505 10 99"
+  email:
+    title: "Email"
+    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+  address:
+    title: "Address"
+    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: true
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."

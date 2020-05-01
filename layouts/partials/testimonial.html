@@ -1,0 +1,39 @@
+{{ if .Site.Data.homepage.testimonial.enable }}
+<section class="section rad-animation-group section--border-bottom" id="reviews">
+    <div class="container">
+        <h2 class="rad-fade-down">{{ .Site.Data.homepage.testimonial.title }}</h2>
+        <div class="row row--padded mb-0 rad-fade-down">
+            {{ range .Site.Data.homepage.testimonial.items }}
+            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
+                <h4>{{ .title_blog }}</h4>
+                <p>
+                    {{ .content }}
+                </p>
+                <div class="testimonial__author">
+                    <img class="lozad testimonial__author-image"
+                         src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                         data-src="{{ .image.x | absURL }}"
+                         data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
+                         alt="{{ .name }}"/>
+                    <div class="testimonial__author-info">
+                        <h4>{{ .name }}</h4>
+                        <span>{{ .position }}</span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+                    <h3>{{ .title }}</h3>
+                    <p class="lead">
+                      {{ .description }}
+                    </p>
+                    <a href="{{ .button.URL | absURL }}" class="btn btn-primary"
+                      >{{ .button.btnText }}<i class="{{ .button.icon }}"></i
+                    ></a>
+                </div>
+
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

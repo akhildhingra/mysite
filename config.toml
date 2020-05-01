@@ -1,0 +1,71 @@
+baseURL = "https://opinionated.com/"
+languageCode = "en-us"
+theme = "raditian-free-hugo-theme"
+title = "My Site"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "About Me"
+  URL = "#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Blogposts"
+  URL = "#reviews"
+  weight = 3
+
+  [[menu.header]]
+  name = "Reviews"
+  URL = "#portfolio"
+  weight = 4
+
+
+  [[menu.footer]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Portfolio"
+  URL = "#reviews"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "#about"
+  weight = 4
+
+
+[params]
+
+  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+
+  [params.logo]
+    text1 = "Akhil"
+    text2 = "Dhingra"
+
+  [params.footer]
+      copyright = "©. All rights reserved."
+      
